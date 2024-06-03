@@ -1,9 +1,6 @@
 package cn.xju.exception;
 
-/**
- * @author 言曌
- * @date 2019-08-09 16:47
- */
+
 
 public class MyBusinessException extends RuntimeException {
 

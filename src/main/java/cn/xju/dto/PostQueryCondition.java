@@ -4,10 +4,7 @@ import lombok.Data;
 
 import java.util.List;
 
-/**
- * @author 言曌
- * @date 2020/3/12 4:53 下午
- */
+
 @Data
 public class PostQueryCondition {
 

@@ -9,10 +9,7 @@ import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.text.StrBuilder;
 import cn.xju.exception.MyBusinessException;
 
-/**
- * @author 言曌
- * @date 2020/3/8 5:45 下午
- */
+
 public class FileUtil {
 
     /**

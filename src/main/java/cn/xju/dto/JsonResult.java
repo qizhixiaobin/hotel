@@ -4,11 +4,9 @@ import lombok.Data;
 
 /**
  * <pre>
- *     Json格式
+ * Json格式
  * </pre>
  *
- * @author : saysky
- * @date : 2018/5/24
  */
 @Data
 public class JsonResult {
@@ -66,9 +64,11 @@ public class JsonResult {
     public static JsonResult error(String msg) {
         return new JsonResult(0, msg);
     }
+
     public static JsonResult error(String msg, Object data) {
         return new JsonResult(0, msg, data);
     }
+
     public static JsonResult success() {
         return new JsonResult(1, "操作成功");
     }

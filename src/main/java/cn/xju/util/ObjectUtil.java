@@ -8,9 +8,7 @@ import org.springframework.cglib.beans.BeanMap;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @author example
- */
+
 public class ObjectUtil {
 
     public static String mapToString(Map<String, String[]> paramMap){
